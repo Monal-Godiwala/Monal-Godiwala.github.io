@@ -1,1 +1,74 @@
-ShivShakti
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Developer Portfolio</title>
+    <link rel="stylesheet" href="./resources/css/styles.css" type="text/css"> <!-- You can create a separate CSS file and link it here -->
+</head>
+
+<body>
+<!-- Header section -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Main section -->
+<main>
+    <!-- About section -->
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Welcome to my portfolio website! I am a mobile developer specializing in iOS and Android app development. I have a strong passion for creating user-friendly and visually appealing mobile applications.</p>
+        <p>Here are some of my key skills:</p>
+        <ul>
+            <li>iOS Development (Swift)</li>
+            <li>Android Development (Java/Kotlin)</li>
+            <li>React Native</li>
+            <li>UI/UX Design</li>
+            <li>RESTful APIs</li>
+        </ul>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Name 1</h3>
+            <p>Description of the project goes here.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project Name 2</h3>
+            <p>Description of the project goes here.</p>
+            <a href="#">View Project</a>
+        </div>
+        <!-- Add more project divs as needed -->
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to get in touch with me, please fill out the form below or reach out to me via email or phone.</p>
+        <form action="submit_form.php" method="POST"> <!-- Replace "submit_form.php" with your own form processing script -->
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+
+<!-- Footer section -->
+<footer>
+    <p>&copy; 2023 Your Name. All rights reserved.</p>
+</footer>
+</body>
+
+</html>
