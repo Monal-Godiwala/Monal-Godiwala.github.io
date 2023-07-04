@@ -341,6 +341,7 @@ figure {
 .fh5co-feature .fh5co-text {
   float: right;
   width: 82%;
+  font-size: 17px
 }
 @media screen and (max-width: 768px) {
   .fh5co-feature .fh5co-text {
@@ -356,6 +357,13 @@ figure {
   margin: 0;
   padding: 0;
 }
+.fh5co-feature .fh5co-text h3 {
+  margin: 0;
+  padding: 0;
+  color: #17e7a4;
+  font-size: 20px;
+  font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+}
 .fh5co-feature .fh5co-text h4 {
   font-weight: 300;
   margin-bottom: 10px;
@@ -363,7 +371,7 @@ figure {
   font-size: 15px;
 }
 .fh5co-feature .fh5co-text h2 {
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 2px;
   font-weight: bold;
   text-transform: uppercase;
