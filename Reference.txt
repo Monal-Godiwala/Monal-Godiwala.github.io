@@ -29,6 +29,7 @@ https://www.google.com/fonts/
 
 Icomoon
 https://icomoon.io/app/
+https://automotive.wiki/extensions/BlueSpiceFoundation/resources/bs.icons.php?icons=fontawesome
 
 Respond JS
 https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
