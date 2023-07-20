@@ -1,74 +1,738 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Developer Portfolio</title>
-    <link rel="stylesheet" href="./resources/css/styles.css" type="text/css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Monal Godiwala</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Monal Website"/>
+    <meta name="keywords"
+          content="portfolio, mobile first, responsive, mobile developer, android, developer"/>
+    <meta name="author" content="Monal"/>
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:card" content=""/>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'> -->
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
 </head>
+<body style="background-image: url(images/bg_img2.jpeg);">
+<!--<body style="background-color:#F2E5E5;">-->
 
-<body>
-<!-- Header section -->
-<header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+<div id="fh5co-main">
+    <div class="fh5co-tab-wrap">
+
+        <!--<editor-fold desc="Menu">-->
+
+        <ul class="fh5co-tab-menu">
+            <li class="active"><a href="#" data-tab="1"><span class="icon icon-user"></span><span
+                    class="menu-text">Profile</span></a></li>
+            <li><a href="#" data-tab="2"><span class="icon icon-graduation-cap"></span><span
+                    class="menu-text">Education</span></a></li>
+            <li><a href="#" data-tab="3"><span class="icon icon-black-tie"></span><span
+                    class="menu-text">Experience</span></a></li>
+            <li><a href="#" data-tab="4" data-pie="yes"><span
+                    class="icon icon-star"></span><span class="menu-text">Skills</span></a>
+            </li>
+            <li><a href="#" data-tab="5"><span class="icon icon-briefcase"></span><span
+                    class="menu-text">Projects</span></a></li>
         </ul>
-    </nav>
-</header>
 
-<!-- Main section -->
-<main>
-    <!-- About section -->
-    <section id="about">
-        <h1>About Me</h1>
-        <p>Welcome to my portfolio website! I am a mobile developer specializing in iOS and Android app development. I have a strong passion for creating user-friendly and visually appealing mobile applications.</p>
-        <p>Here are some of my key skills:</p>
-        <ul>
-            <li>iOS Development (Swift)</li>
-            <li>Android Development (Java/Kotlin)</li>
-            <li>React Native</li>
-            <li>UI/UX Design</li>
-            <li>RESTful APIs</li>
-        </ul>
-    </section>
+        <!--</editor-fold>-->
 
-    <!-- Projects section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Name 1</h3>
-            <p>Description of the project goes here.</p>
-            <a href="#">View Project</a>
+        <!--<editor-fold desc="Tab - Profile">-->
+
+        <div class="fh5co-tab-content active" data-content="1">
+            <div class="fh5co-content-inner text-center">
+                <div class="row row-bottom-padded-sm">
+                    <div class="col-md-12">
+                        <figure>
+                            <img src="images/profile_img.png" alt="Monal">
+                        </figure>
+                        <h1 style="color:#008bb5;">Monal Godiwala</h1>
+                        <h3>Principal SDE</h3>
+                    </div>
+                    <div class="col-md-12 text-justify">
+                        <p><b>Lead Android Developer</b> with over 8 years of successful experience
+                            in Mobile Development. Recognised consistently for performance
+                            excellence in all aspects of the software development life cycle,
+                            including requirements analysis, design, development, testing and
+                            production support. </p>
+                    </div>
+                </div>
+                <div class="row row-bottom-padded-sm">
+                    <div class="col-md-12 fh5co-counter">
+                        <div class="fh5co-number fh5co-left">15+</div>
+                        <!--<div class="fh5co-text">-->
+                        <h3 class="border-bottom">fully functional applications</h3>
+                        <!--</div>-->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-justify">
+                        <ul>
+                            <li>Known for writing efficient, maintainable, reusable, and clean
+                                code.
+                            </li>
+                            <li>Proficient in design, data structures, analytical skills,
+                                problem-solving, and debugging.
+                            </li>
+                            <li>Expert in the interaction between various devices and versions of
+                                Android
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="fh5co-social">
+                    <li>
+                        <a href="mailto:monal.godiwala@gmail.com?subject=Request for Phone Number&body=I am reaching out to request your phone number for communication purposes.">
+                            <i class="icon-phone"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:monal.godiwala@gmail.com">
+                            <i class="icon-envelope"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/monal-godiwala" target="_blank">
+                            <i class="icon-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="project">
-            <h3>Project Name 2</h3>
-            <p>Description of the project goes here.</p>
-            <a href="#">View Project</a>
+
+        <!--</editor-fold>-->
+
+        <!--<editor-fold desc="Tab - Education">-->
+
+        <div class="fh5co-tab-content" data-content="2">
+            <div class="fh5co-content-inner">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-graduation-cap"></i>
+                                <p style="margin:7px;"></p>
+                                <h5>
+                                    2011-07<p style="margin:3px;"></p>2013-06
+                                </h5>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    Master of Science: Information Technology
+                                </h3>
+                                <p style="margin:5px;"></p>
+                                <h2>
+                                    Veer Narmad South Gujarat University - Surat
+                                </h2>
+                                <p style="margin:7px;"></p>
+                                <li>Graduated with an aggregate of <b>78.33%</b></li>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-graduation-cap"></i>
+                                <p style="margin:7px;"></p>
+                                <h5>
+                                    2008-07<p style="margin:3px;"></p>2011-06
+                                </h5>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    Bachelor of Science: Information Technology
+                                </h3>
+                                <p style="margin:5px;"></p>
+                                <h2>
+                                    Veer Narmad South Gujarat University - Surat
+                                </h2>
+                                <p style="margin:7px;"></p>
+                                <li>Graduated with an aggregate of <b>72.80%</b></li>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-graduation-cap"></i>
+                                <p style="margin:7px;"></p>
+                                <h5>
+                                    2007-06<p style="margin:3px;"></p>2008-03
+                                </h5>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    <br>
+                                    H.S.C: Science
+                                </h3>
+                                <p style="margin:5px;"></p>
+                                <h2>
+                                    Gujarat Secondary Education Board - Surat
+                                </h2>
+                                <p style="margin:7px;"></p>
+                                <li>Secured <b>73.60%</b></li>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-graduation-cap"></i>
+                                <p style="margin:7px;"></p>
+                                <h5>
+                                    2005-06<p style="margin:3px;"></p>2006-03
+                                </h5>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    <br>
+                                    S.S.C
+                                </h3>
+                                <p style="margin:5px;"></p>
+                                <h2>Gujarat Secondary Education Board - Surat</h2>
+                                <p style="margin:7px;"></p>
+                                <li>Secured <b>85.57%</b></li>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <!-- Add more project divs as needed -->
-    </section>
 
-    <!-- Contact section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>If you would like to get in touch with me, please fill out the form below or reach out to me via email or phone.</p>
-        <form action="submit_form.php" method="POST"> <!-- Replace "submit_form.php" with your own form processing script -->
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-</main>
+        <!--</editor-fold>-->
 
-<!-- Footer section -->
-<footer>
-    <p>&copy; 2023 Your Name. All rights reserved.</p>
-</footer>
+        <!--<editor-fold desc="Tab - Experience">-->
+
+        <div class="fh5co-tab-content" data-content="3">
+            <div class="fh5co-content-inner">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-black-tie"></i>
+                                <p style="margin:7px;"></p>
+                                <h5>
+                                    2022-05<p style="margin:3px;"></p>present
+                                </h5>
+                            </div>
+                            <div class="fh5co-text">
+
+                                <h3>Principal Android Developer</h3>
+                                <p style="margin:10px;"></p>
+                                <h2>AFour Technologies (An ACL Digital Company), Pune,
+                                    Maharashtra</h2>
+                                <p style="margin:10px;"></p>
+                                <li>
+                                    Worked on NBA official teams' apps where user can get the
+                                    insight of entire game, players, schedule, highlights,
+                                    ticket purchasing along with the live game scores and news
+                                    updates
+                                </li>
+                                <li>
+                                    Supported team members with trainings.
+                                </li>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-black-tie"></i>
+                                <p style="margin:7px;"></p>
+                                <h5>
+                                    2019-05<p style="margin:3px;"></p>2022-05
+                                </h5>
+                            </div>
+                            <div class="fh5co-text">
+
+                                <h3>Lead Android Developer</h3>
+                                <p style="margin:10px;"></p>
+                                <h2>K2V2 Technologies (Sell.Do, BeyondWalls), Pune, Maharashtra</h2>
+                                <p style="margin:10px;"></p>
+                                <li>
+                                    Working on a Real Estate app with the users over 5K.
+                                </li>
+                                <li>
+                                    Won Excel Category Award
+                                </li>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-black-tie"></i>
+                                <p style="margin:7px;"></p>
+                                <h5>
+                                    2018-03<p style="margin:3px;"></p>2019-04
+                                </h5>
+                            </div>
+                            <div class="fh5co-text">
+
+                                <h3>Mobile Application Developer</h3>
+                                <p style="margin:10px;"></p>
+                                <h2>Silver Touch Technologies Ltd, Surat Municipal Corporation,
+                                    Surat, Gujarat</h2>
+                                <p style="margin:10px;"></p>
+                                <li>
+                                    Worked on 4+ app which were used by Government Employees for
+                                    their day to day tasks
+                                </li>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-black-tie"></i>
+                                <p style="margin:7px;"></p>
+                                <h5>
+                                    2016-10<p style="margin:3px;"></p>2018-02
+                                </h5>
+                            </div>
+                            <div class="fh5co-text">
+
+                                <h3>Sr. Android Application Developer</h3>
+                                <p style="margin:10px;"></p>
+                                <h2>Rawal Infocom Pvt Ltd, Surat, Gujarat</h2>
+                                <p style="margin:10px;"></p>
+                                <li>
+                                    A startup where we created the first MVP within the duration of
+                                    5 months.
+                                </li>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-black-tie"></i>
+                                <p style="margin:7px;"></p>
+                                <h5>
+                                    2016-04<p style="margin:3px;"></p>2016-09
+                                </h5>
+                            </div>
+                            <div class="fh5co-text">
+
+                                <h3>Sr. Android Application Developer</h3>
+                                <p style="margin:10px;"></p>
+                                <h2>Doctor Stay Technologies, Surat, Gujarat</h2>
+                                <p style="margin:10px;"></p>
+                                <li>
+                                    Worked as a freelancer
+                                </li>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-black-tie"></i>
+                                <p style="margin:7px;"></p>
+                                <h5>
+                                    2014-07<p style="margin:3px;"></p>2016-03
+                                </h5>
+                            </div>
+                            <div class="fh5co-text">
+
+                                <h3>Sr. Android Application Developer</h3>
+                                <p style="margin:10px;"></p>
+                                <h2>Narola Infotech, Surat, Gujarat</h2>
+                                <p style="margin:10px;"></p>
+                                <li>
+                                    Worked on 5+ client projects for a service based company
+                                </li>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-black-tie"></i>
+                                <p style="margin:7px;"></p>
+                                <h5>
+                                    2013-01<p style="margin:3px;"></p>2014-06
+                                </h5>
+                            </div>
+                            <div class="fh5co-text">
+
+                                <h3>Android Application Developer</h3>
+                                <p style="margin:10px;"></p>
+                                <h2>Oceans Technologies, Surat, Gujarat</h2>
+                                <p style="margin:10px;"></p>
+                                <li>
+                                    Worked on 10+ projects including client apps and in-house apps
+                                </li>
+                                <br>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--</editor-fold>-->
+
+        <!--<editor-fold desc="Tab - Skills">-->
+
+        <div class="fh5co-tab-content" data-content="4">
+            <div class="fh5co-content-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="fh5co-feature">
+                            <li>Restful API, Jetpack Compose, Jetpack components, Room Local
+                                Database,
+                                Content Provider, Services, Work Managers, Multithreading, Push
+                                Notifications, In-App Purchase, Location Manager, Maps, Services,
+                                Graphs, Unit Testing.
+                            </li>
+                            <li>MVVM, MVP Architecture.</li>
+                            <li>Firebase services like Database, Remote Config, Crashlytics,
+                                Authentication, Analytics
+                            </li>
+                            <li>Web service integration, Social Media integration and Third Party
+                                libraries integration.
+                            </li>
+                            <li>App publication on Google Play Store.</li>
+                            <p style="margin:50px;"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="95"><span><strong>Operating Systems: MAC, Linux,<br>Windows</strong></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="95"><span><strong>Programming Languages: Android, Kotlin, Java</strong></span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="94">
+                            <span><strong>Data structures<br>and<br>algorithms</strong></span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="94"><span><strong>Databases: SQLite, SQL Server, Oracle, MySQL, MongoDB</strong></span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="95">
+                            <span><strong>Version Control<br>Tool:<br>Git, SVN</strong></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="98">
+                            <span><strong>Agile<br>Methodology</strong></span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+
+                        <p style="margin:20px;"></p>
+                        <h3>Other Skills</h3>
+
+                        <div class="fh5co-feature">
+                            <table style="width:100%">
+                                <tr>
+                                    <td>
+                                        <li>Communication</li>
+                                    </td>
+                                    <td>
+                                        <li>Time management</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>Problem-solving</li>
+                                    </td>
+                                    <td>
+                                        <li>Collaboration</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>Leadership</li>
+                                    </td>
+                                    <td>
+                                        <li>Adaptability</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li>Creativity</li>
+                                    </td>
+                                    <td>
+                                        <li>Conflict resolution</li>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--</editor-fold>-->
+
+        <!--<editor-fold desc="Tab - Projects">-->
+
+        <div class="fh5co-tab-content" data-content="5">
+            <div class="fh5co-content-inner">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-android"></i>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    NBA Apps ( <a href="https://play.google.com/store/apps/details?id=com.yinzcam.nba.bulls" target="_blank">Bulls&nbsp;<i class="icon-external-link-square"></i></a>, <a href="https://play.google.com/store/apps/details?id=com.yinzcam.nba.grizzlies" target="_blank">Grizzlies&nbsp;<i class="icon-external-link-square"></i></a>, <a href="https://play.google.com/store/apps/details?id=com.yinzcam.nba.spurs" target="_blank">Spurs&nbsp;<i class="icon-external-link-square"></i></a>, <a href="https://play.google.com/store/apps/details?id=com.yinzcam.nba.pacers" target="_blank">Pacers&nbsp;<i class="icon-external-link-square"></i></a> )
+                                </h3>
+                                <p style="margin:7px;"></p>
+                                The official mobile apps for NBA games. Some main features included in the app are:
+                                <li>Live stats, scores, and standings</li>
+                                <li>Interactive schedule for recent, current, and upcoming games</li>
+                                <li>Buying, upgrading, and managing tickets</li>
+                                <li>Latest articles, videos, and images browsing</li>
+                                <li>Roster breakdowns, player bios, stats, stories, and photos</li>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-android"></i>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    <a href="https://play.google.com/store/apps/details?id=com.amura.selldo" target="_blank">Sell.Do&nbsp;<i class="icon-external-link-square"></i></a>
+                                </h3>
+                                <p style="margin:7px;"></p>
+                                This app is basically a next generation real estate sales tool. Sell. Do is fast, beautiful, easy & will make conducting follow-ups/site visits a breeze. Above all, it has a more powerful notification system. Sell.do helps the real estate industry to get the best out of their marketing efforts, optimize cost and assists their sales team to achieve targets in almost no time.
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-android"></i>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    <a href="https://play.google.com/store/apps/details?id=in.smc.ec" target="_blank">Employee Connect App&nbsp;<i class="icon-external-link-square"></i></a>
+                                </h3>
+                                <p style="margin:7px;"></p>
+                                This app is for Surat Municipal Corporation (SMC) Employees. The government employees use this app to perform their day to day tasks like attendance, managing complaints, Hoardings, sweeping machines, Door to door garbage collection tracking and many more
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-android"></i>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    <a href="https://play.google.com/store/apps/details?id=in.smc" target="_blank">Surat Municipal Corporation&nbsp;<i class="icon-external-link-square"></i></a>
+                                </h3>
+                                <p style="margin:7px;"></p>
+                                This app is for Surat Municipal Corporation (SMC). It enables the service delivery and information sharing. It provides the functionality to check and Pay Outstanding or Advance Property Tax, register Mobile number for SMS alerts
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-android"></i>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    <a href="https://play.google.com/store/apps/details?id=nl.welcomeccs.focusbricks&hl" target="_blank">Focus Bricks&nbsp;<i class="icon-external-link-square"></i></a>
+                                </h3>
+                                <p style="margin:7px;"></p>
+                                This app gives the employees understand current tasks and messages that are of interest to them. All relevant information is always available. Workslips can be digitally signed and processed locally. One is able to capture new reports and enrich with encoding, own findings and photos. The messages are then recorded directly in the Focusbricks application and are available for processing.
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-android"></i>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    <a href="https://play.google.com/store/apps/details?id=com.choose.choosecard&hl=" target="_blank">Angelic Inspirational Cards&nbsp;<i class="icon-external-link-square"></i></a>
+                                </h3>
+                                <p style="margin:7px;"></p>
+                                This app is designated to inspire, uplift and empower people. This app offers the functionality to shuffle the cards as many times as one likes, share the selected card on facebook, view all cards in browse mode.
+                                With the free version of this app, one can access 11 cards but then the user can upgrade the app to use all 55 cards
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-android"></i>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    RContacts App
+                                </h3>
+                                <p style="margin:7px;"></p>
+                                This app is a kind of Contact Manager App. It has the feature of auto- syncing the phonebook without disturbing the local phonebook of the device. It has Bi-color display of contact indicating RContact registered user. It is a multilingual application. It has some unique features like address mapping with Google Maps, Privacy of user profile data, User Rating, Global Search and more
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-android"></i>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    Doctor Stay App
+                                </h3>
+                                <p style="margin:7px;"></p>
+                                This app shows all managed Appointments, Reports, Patients, Billing and Account Management. Appointment management provides facilities like Rescheduling, Cancelling, searching with case no, patient contact no, reason for appointment as well using date range. It includes all patients' detailed information like appointments, treatments, reports and billing. A doctor also can prescribe digitally. Doctors can also manage multiple clinics easily from a single app.
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-android"></i>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    Loople App
+                                </h3>
+                                <p style="margin:7px;"></p>
+                                This app shows all the Bars and Restaurants of Baltimore. People can get information about a specific bar, leave a review for the bar, add photos, specialties and much more. Users can manage Friends. Users can also create a loop(group), add friends they wish to, add photos and comment on photos. Users can manage their profile and view his feeds. Most promising feature of this app is that users can filter the locations based on criteria.
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+                        <!--<div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-android"></i>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    Vor by Opecom
+                                </h3>
+                                <p style="margin:7px;"></p>
+                                This app is strategic tool par experience. It allows users to ramp up and not under pressure to achieve increased and sustainable performance in the notation of pleasure. It helps the user to daily manage their emotions and associated behaviors.
+                                <br>
+                                <br>
+                            </div>
+                        </div>-->
+
+                        <div class="fh5co-feature">
+                            <div class="fh5co-icon">
+                                <i class="icon-android"></i>
+                            </div>
+                            <div class="fh5co-text">
+                                <h3>
+                                    True or False - For Kids
+                                </h3>
+                                <p style="margin:7px;"></p>
+                                This is an educational app in which users can answer the question from the given four options. The promising feature of this app is that this app can be played by single as well as two players. And for two player game, the UI of the app is developed in such a way that both users can sit in opposite directions and answer the question from their respective side.
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--</editor-fold>-->
+
+    </div>
+
+    <footer id="fh5co-footer">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <small>
+                    &copy; 2023 All Rights Reserved.
+                </small>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Easy PieChart -->
+<script src="js/jquery.easypiechart.min.js"></script>
+<!-- MAIN JS -->
+<script src="js/main.js"></script>
+
 </body>
-
 </html>
+
