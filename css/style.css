@@ -33,13 +33,13 @@ body {
 }
 
 a {
-  color: #17e7a4;
+  color: #008bb5;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #17e7a4;
+  color: #008bb5;
   outline: none;
 }
 
@@ -66,17 +66,17 @@ table, th, td {
 
 ::-webkit-selection {
   color: #fff;
-  background: #17e7a4;
+  background: #008bb5;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #17e7a4;
+  background: #008bb5;
 }
 
 ::selection {
   color: #fff;
-  background: #17e7a4;
+  background: #008bb5;
 }
 
 #fh5co-main {
@@ -168,7 +168,7 @@ table, th, td {
   position: absolute;
   content: "";
   height: 0;
-  background: #17e7a4;
+  background: #008bb5;
   z-index: -1;
   top: 0;
   left: 0;
@@ -250,7 +250,7 @@ figure {
 
 .fh5co-counter .fh5co-number {
   font-size: 100px;
-  color: #17e7a4;
+  color: #008bb5;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -320,7 +320,7 @@ figure {
   }
 }
 .fh5co-social li a:hover {
-  color: #17e7a4;
+  color: #008bb5;
 }
 .fh5co-social li a:hover, .fh5co-social li a:active, .fh5co-social li a:focus {
   outline: none;
@@ -339,7 +339,7 @@ figure {
   margin-top: 5px;
 }
 .fh5co-feature .fh5co-icon i {
-  color: #17e7a4;
+  color: #008bb5;
   font-size: 40px;
 }
 .fh5co-feature .fh5co-text {
@@ -364,7 +364,7 @@ figure {
 .fh5co-feature .fh5co-text h3 {
   margin: 0;
   padding: 0;
-  color: #17e7a4;
+  color: #008bb5;
   font-size: 20px;
   font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
 }
